@@ -1,0 +1,5 @@
+q
+colorscheme rice
+bind common <key> mute
+bind -f common enter win-activate
+add

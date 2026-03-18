@@ -1,0 +1,131 @@
+* {
+    font-family: monospace;
+    font-size: 13px; /* Pode ajustar para o mesmo tamanho que usou na Waybar */
+    border-radius: 0;
+    border: none;
+    outline: none;
+}
+
+/* Fundo da janela principal */
+window {
+    margin: 0px;
+    background-color: #000000;
+    border: 1px solid #333333;
+}
+
+/* Caixa de pesquisa (Input) */
+#input {
+    margin: 5px;
+    padding: 4px;
+    background-color: #222222;
+    color: #ffffff;
+    border: 1px solid #333333;
+}
+
+/* Container interno */
+#inner-box {
+    margin: 5px;
+    background-color: #000000;
+}
+
+#outer-box {
+    margin: 2px;
+    background-color: #000000;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+/* Linha de cada programa na lista */
+#entry {
+    padding: 2px 5px;
+    border: 1px solid transparent; /* Evita que a lista pule ao selecionar */
+}
+
+/* Texto dos programas não selecionados (Cinza) */
+#text {
+    margin: 2px;
+    color: #888888;
+}
+
+/* Programa selecionado (Azul clássico do i3) */
+#entry:selected {
+    background-color: #285577;
+    border: 1px solid #4c7899;
+}
+
+/* Texto do programa selecionado (Branco) */
+#entry:selected #text {
+    color: #ffffff;
+}
+
+* {
+    font-family: monospace;
+    font-size: 13px; /* Pode ajustar para o mesmo tamanho que usou na Waybar */
+    border-radius: 0;
+    border: none;
+    outline: none;
+}
+
+/* Fundo da janela principal */
+window {
+    margin: 0px;
+    background-color: #000000;
+    border: 1px solid #333333;
+}
+
+/* Caixa de pesquisa (Input) */
+#input {
+    margin: 5px;
+    padding: 4px;
+    background-color: #222222;
+    color: #ffffff;
+    border: 1px solid #333333;
+}
+
+/* Container interno */
+#inner-box {
+    margin: 5px;
+    background-color: #000000;
+}
+
+#outer-box {
+    margin: 2px;
+    background-color: #000000;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+/* Linha de cada programa na lista */
+#entry {
+    padding: 2px 5px;
+    border: 1px solid transparent; /* Evita que a lista pule ao selecionar */
+}
+
+/* Texto dos programas não selecionados (Cinza) */
+#text {
+    margin: 2px;
+    color: #888888;
+}
+
+/* Programa selecionado (Azul clássico do i3) */
+#entry:selected {
+    background-color: #285577;
+    border: 1px solid #4c7899;
+}
+
+/* Texto do programa selecionado (Branco) */
+#entry:selected #text {
+    color: #ffffff;
+}
+
+/* Espaçamento e fundo transparente para os ícones */
+#img {
+    margin-right: 8px;
+    background-color: transparent;
+}

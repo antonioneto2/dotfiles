@@ -1,0 +1,48 @@
+# ==========================================================
+# Configuração do Dunst - Estilo i3wm Clássico
+# ==========================================================
+
+[global]
+    # Tamanho e Posição (Canto superior direito)
+    width = 300
+    height = 150
+    origin = top-right
+    offset = 15x15
+
+    # Estética Rigorosa
+    font = Monospace 10
+    corner_radius = 0
+    frame_width = 2
+    separator_height = 2
+    
+    # Comportamento
+    format = "<b>%s</b>\n%b"
+    timeout = 5
+    ignore_newline = no
+    show_indicators = yes
+
+    # Barra de Progresso
+    progress_bar = true
+    progress_bar_height = 8
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 280
+    progress_bar_max_width = 280
+    highlight = "#285577" # Cor azul da barra preenchida
+
+[urgency_low]
+    background = "#000000"
+    foreground = "#888888"
+    frame_color = "#333333" # Borda cinza
+    timeout = 3
+
+[urgency_normal]
+    background = "#000000"
+    foreground = "#ffffff"
+    frame_color = "#285577" # Azul escuro (estilo Waybar)
+    timeout = 5
+
+[urgency_critical]
+    background = "#000000"
+    foreground = "#ffffff"
+    frame_color = "#cc2222" # Vermelho alerta
+    timeout = 0 # Fica na tela até você fechar

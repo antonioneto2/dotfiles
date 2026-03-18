@@ -1,0 +1,15 @@
+# Tamanho da janela
+width=600
+height=350
+
+# Remove os ícones dos programas (mais parecido com o dmenu do i3)
+allow_images=false
+
+# Esconde a barra de rolagem
+hide_scroll=true
+
+# Ignora letras maiúsculas/minúsculas na pesquisa
+insensitive=true
+
+allow_images=true
+image_size=22
