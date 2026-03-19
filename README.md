@@ -6,14 +6,14 @@ It is built for developers and students who want to open their terminal, launch 
 
 ![Desktop Showcase](./assets/desktop.png)
 
-## Gallery
-
 ### Workflow
 The environment in action, focusing on code and terminal execution.
+
 ![Workflow](./assets/workflow.png)
 
 ### Login (ly)
 Maintaining the UNIX terminal aesthetic right from the boot process.
+
 ![Ly Login](./assets/ly_login.png)
 
 ## The Stack
@@ -32,6 +32,6 @@ Maintaining the UNIX terminal aesthetic right from the boot process.
 Feel free to use and modify any part of this configuration. To replicate this exact environment, simply clone the repository and copy the contents into your local `.config` directory:
 
 ```bash
-$ git clone [https://github.com/antonioneto2/dotfiles.git](https://github.com/antonioneto2/dotfiles.git)
-$ cp -r dotfiles/.config/* ~/.config/
+git clone [https://github.com/antonioneto2/dotfiles.git](https://github.com/antonioneto2/dotfiles.git)
+cp -r dotfiles/.config/* ~/.config/
 ``` 
